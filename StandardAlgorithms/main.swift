@@ -9,3 +9,7 @@ import Foundation
 
 print("Hello, World!")
 
+var a = 5
+a += 7
+ print("A is now : \(a)")
+

@@ -45,6 +45,7 @@
 				E7EDD70C2AFA482C00F3E5F6 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E7EDD70C2AFA482C00F3E5F6 /* Products */ = {
 			isa = PBXGroup;
