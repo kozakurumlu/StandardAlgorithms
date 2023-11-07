@@ -11,5 +11,9 @@ print("Hello, World!")
 
 var a = 5
 a += 7
- print("A is now : \(a)")
+
+let b = "Hi ya'll im losing my voice"
+
+print("A is now : \(a)")
+
 
