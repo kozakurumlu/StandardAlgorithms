@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BBC03FC3-3BC0-4933-A379-08C33C3B428A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "757065F0-652A-4E2F-BCE4-59D64E53DBD2"
+            shouldBeEnabled = "No"
+            nameForDebugger = "ARITHMETIC"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StandardAlgorithms/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
