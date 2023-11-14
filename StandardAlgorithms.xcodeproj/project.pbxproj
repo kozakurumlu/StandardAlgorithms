@@ -31,6 +31,7 @@
 		E7EDD7192AFA52CF00F3E5F6 /* StandardAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EDD7202AFE950600F3E5F6 /* SortingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTests.swift; sourceTree = "<group>"; };
 		E7EDD7222AFE965500F3E5F6 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		E7EDD7252B038E0700F3E5F6 /* StandardAlgorithms.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = StandardAlgorithms.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		E7EDD7022AFA482C00F3E5F6 = {
 			isa = PBXGroup;
 			children = (
+				E7EDD7252B038E0700F3E5F6 /* StandardAlgorithms.xctestplan */,
 				E7EDD70D2AFA482C00F3E5F6 /* StandardAlgorithms */,
 				E7EDD71A2AFA52CF00F3E5F6 /* StandardAlgorithmsTests */,
 				E7EDD70C2AFA482C00F3E5F6 /* Products */,
