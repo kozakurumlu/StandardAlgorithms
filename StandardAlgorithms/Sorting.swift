@@ -10,6 +10,8 @@ import Foundation
 class Sorting {
     
     func bubbleSort(_ data: [Int]) -> [Int] {
+        //TODO: Finish Bubble Sort TDD
+        
         if data[0] == 2{
             return [1,2,3,4,7]
         }
@@ -52,4 +54,36 @@ class Sorting {
 
         return merge(mergeSort(arrayOne), mergeSort(arrayTwo))
     }
+    
+    func quickSort(_ array: [Int]) -> [Int] {
+        if array.count <= 1 {
+            return array
+        }
+        var leftArray = [Int]()
+        var rightArray = [Int]()
+        
+        let pivot  = array [0]
+        for i in 1..<array.count{
+            
+            if array[i] <= pivot{
+                leftArray.append(array[i])
+            }
+            
+            else{
+                rightArray.append(array[i])
+            }
+            
+        }
+        var new_array = [Int]()
+        
+        new_array.append(contentsOf: quickSort(leftArray))
+        new_array.append(pivot)
+        new_array.append(contentsOf: quickSort(rightArray))
+        
+        
+        
+        
+        return new_array
+    }
+    
 }
