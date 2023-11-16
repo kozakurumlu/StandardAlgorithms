@@ -17,6 +17,8 @@ class Sorting {
         }
         return [1,3,4,5,7]
     }
+    
+    
     func mergeSort(_ array: [Int]) -> [Int] {
         if array.count <= 1 {
             return array
@@ -54,6 +56,8 @@ class Sorting {
 
         return merge(mergeSort(arrayOne), mergeSort(arrayTwo))
     }
+    
+    
     
     func quickSort(_ array: [Int]) -> [Int] {
         if array.count <= 1 {

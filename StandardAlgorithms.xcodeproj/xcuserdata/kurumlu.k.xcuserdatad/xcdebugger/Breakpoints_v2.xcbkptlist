@@ -31,8 +31,8 @@
             filePath = "StandardAlgorithms/Sorting.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "mergeSort(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -63,8 +63,8 @@
             filePath = "StandardAlgorithmsTests/SortingTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "testQuickSortPerformance()"
             landmarkType = "7">
          </BreakpointContent>
@@ -79,9 +79,25 @@
             filePath = "StandardAlgorithmsTests/SortingTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "testQuickSortWithManyShuffledArrayIntegersReturnsThemInAscendingOrder()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD35F8A3-AA63-4BCA-AD21-9CE5FCD0B41F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StandardAlgorithmsTests/SortingTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testMergeSortWithManyShuffledArrayIntegersReturnsThemInAscendingOrder()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

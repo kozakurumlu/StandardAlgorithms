@@ -11,6 +11,7 @@
 		E7EDD7212AFE950600F3E5F6 /* SortingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EDD7202AFE950600F3E5F6 /* SortingTests.swift */; };
 		E7EDD7232AFE965500F3E5F6 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EDD7222AFE965500F3E5F6 /* Sorting.swift */; };
 		E7EDD7242AFE971300F3E5F6 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EDD7222AFE965500F3E5F6 /* Sorting.swift */; };
+		E7EDD7282B064A9500F3E5F6 /* testCaseGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EDD7262B064A3700F3E5F6 /* testCaseGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		E7EDD7202AFE950600F3E5F6 /* SortingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTests.swift; sourceTree = "<group>"; };
 		E7EDD7222AFE965500F3E5F6 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		E7EDD7252B038E0700F3E5F6 /* StandardAlgorithms.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = StandardAlgorithms.xctestplan; sourceTree = "<group>"; };
+		E7EDD7262B064A3700F3E5F6 /* testCaseGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCaseGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				E7EDD7202AFE950600F3E5F6 /* SortingTests.swift */,
+				E7EDD7262B064A3700F3E5F6 /* testCaseGenerator.swift */,
 			);
 			path = StandardAlgorithmsTests;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				E7EDD7242AFE971300F3E5F6 /* Sorting.swift in Sources */,
 				E7EDD7212AFE950600F3E5F6 /* SortingTests.swift in Sources */,
+				E7EDD7282B064A9500F3E5F6 /* testCaseGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
