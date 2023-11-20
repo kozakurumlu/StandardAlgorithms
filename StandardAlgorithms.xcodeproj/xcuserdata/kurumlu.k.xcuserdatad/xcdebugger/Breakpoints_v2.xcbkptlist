@@ -7,23 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "757065F0-652A-4E2F-BCE4-59D64E53DBD2"
-            shouldBeEnabled = "No"
-            nameForDebugger = "ARITHMETIC"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "StandardAlgorithms/main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "6B1C557F-385A-430F-BECD-9952B53EC78A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
