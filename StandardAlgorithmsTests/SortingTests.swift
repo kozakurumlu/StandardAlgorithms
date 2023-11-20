@@ -15,19 +15,19 @@ final class SortingTests: XCTestCase {
         }
 
         
-        func testBubbleSortWithManyShuffledArrayIntegersReturnsThemInAscendingOrder() {
-            //arrange
-            let sorting = Sorting()
-            let testCases = testCaseGenerator().generateTestCasesForSorting(numCases: 10)
-            //act
-            //assert
-            for testCase in testCases{
-                let actual = sorting.bubbleSort(testCase.data)
-                XCTAssertEqual(actual, testCase.expected)
-            }
-            
-            
+    func testBubbleSortWithManyShuffledArrayIntegersReturnsThemInAscendingOrder() {
+        //arrange
+        let sorting = Sorting()
+        let testCases = testCaseGenerator().generateTestCasesForSorting(numCases: 10)
+        //act
+        //assert
+        for testCase in testCases{
+            let actual = sorting.bubbleSort(testCase.data)
+            XCTAssertEqual(actual, testCase.expected)
         }
+    }
+    
+    
         func testMergeSortWithManyShuffledArrayIntegersReturnsThemInAscendingOrder() {
             //arrange
             let sorting = Sorting()
@@ -39,6 +39,19 @@ final class SortingTests: XCTestCase {
                 XCTAssertEqual(actual, testCase.expected)
             }
         }
+    
+    func testInsertionSortWithManyShuffledArrayIntegersReturnsThemInAscendingOrder() {
+        //arrange
+        let sorting = Sorting()
+        let testCases = testCaseGenerator().generateTestCasesForSorting(numCases: 10)
+        //act
+        //assert
+        for testCase in testCases{
+            let actual = sorting.insertionSort(array: testCase.data)
+            XCTAssertEqual(actual, testCase.expected)
+        }
+    }
+
         
         func testQuickSortWithManyShuffledArrayIntegersReturnsThemInAscendingOrder() {
             //arrange
@@ -64,4 +77,45 @@ final class SortingTests: XCTestCase {
                 XCTAssertEqual(actual, testCase.expected)
             }
         }
+    func testInsertionSortPerformance() {
+        //TODO: Improve Performance
+        //arrange
+        let sorting = Sorting()
+        let testCase = (data: [1,5,6,2,3], expected: [1,2,3,5,6])
+        //act
+        //assert
+        let actual = sorting.insertionSort(array: testCase.data)
+        measure {
+            XCTAssertEqual(actual, testCase.expected)
+        }
+    }
+    
+    func testBubbleSortPerformance() {
+        //TODO: Improve Performance
+        //arrange
+        let sorting = Sorting()
+        let testCase = (data: [1,5,6,2,3], expected: [1,2,3,5,6])
+        //act
+        //assert
+        let actual = sorting.bubbleSort(testCase.data)
+        measure {
+            XCTAssertEqual(actual, testCase.expected)
+        }
+    }
+    
+    func testMergeSortPerformance() {
+        //TODO: Improve Performance
+        //arrange
+        let sorting = Sorting()
+        let testCase = (data: [1,5,6,2,3], expected: [1,2,3,5,6])
+        //act
+        //assert
+        let actual = sorting.mergeSort(testCase.data)
+        measure {
+            XCTAssertEqual(actual, testCase.expected)
+        }
+    }
+
+    
+
 }
